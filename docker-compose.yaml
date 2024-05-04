@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: GoogleChatHTMX
+    command: python GoogleGPT.py
+    ports: 
+      - 8000:8000
+    volumes:
+      - .:/GoogleChatHTMX

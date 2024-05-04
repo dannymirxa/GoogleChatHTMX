@@ -165,4 +165,4 @@ async def get_response(chat_id: str):
     return HTMLResponse(message_html)
 
 if __name__ == "__main__":
-    uvicorn.run("GoogleGPT:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("GoogleGPT:app", host="0.0.0.0", port=8000, reload=True)
