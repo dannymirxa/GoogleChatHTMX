@@ -16,3 +16,6 @@ The main difference with hthis project than Unconventional Coding's is this use 
 1. Install packages in requirements.txt
 2. Create .env file and include your Gemini Api token as GOOGLE_API_KEY
 3. Just run `python GoogleGPT.py`
+
+# Images:
+![image info](./image.png)
